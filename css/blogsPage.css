@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke);
+    font-family: Roboto, sans-serif;
+}
+#wrapper{
+   margin-top: 5rem;
+}
+.top{
+    width: 100vw;
+    height: 40vh;
+    /* border: 4px solid rgb(217, 19, 19); */
+    background:linear-gradient(157deg,#e100ff8c 0%,rgba(128, 0, 255, 0.884) 100%) ,url(./img/asset\ 11.jpeg);
+    background-size: cover;
+    text-align: center;
+    /* background-position: center; */
+}
+
+.head .heading1{
+    margin-top: 4rem;
+    /* border: 4px solid rgb(217, 19, 19); */
+
+}
+.head .heading1{
+    color: black;
+    text-align: center;
+
+   
+}
+
+.head .heading2{
+    color: White;
+    text-align: center;
+    /* margin-top: 2rem; */
+}
+.content-box .para1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 9rem;
+}
+.content-box .heading3{
+    color: rgb(128,0,255);
+    text-align: center;
+    margin-top: 1rem;
+}
+.h3{
+    color: red;
+}
+.content-box .para2{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row; 
+    flex-wrap: wrap; 
+}
+.cards .card1 .img1{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.cards{
+    color: white;
+}
+.cards .card2 .img2{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.cards .card3 .img3{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.cards .card4 .img4{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.cards .card5 .img5{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.cards .card6 .img6{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.cards .paras{
+    margin: auto;
+    text-align: center;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    width: 29vw;
+    
+}
+.img1, .img2, .img3 ,.img4 ,.img5 ,.img6{
+    margin: auto;
+  /* margin-left: 22rem; */
+}

@@ -82,6 +82,7 @@
   .footer .footer-contact h3{
     position: relative;
     margin-bottom: 20px;
+    text-align: center;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -96,17 +97,21 @@
     text-transform: capitalize;
   }
   
-  .footer .footer-link a::before {
+  /* .footer .footer-link a::before {
     position: relative;
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-  }
+  } */
   
   .footer .footer-link a:hover {
     color: #221b68;
     letter-spacing: 1px;
+  }
+
+  .footer .footer-link li{
+    list-style-type: none;
   }
   
   .footer .footer-contact p i {

@@ -7,9 +7,11 @@
     <link rel="stylesheet" type="text/css" href="../css/footer.css" />
     
     <link rel="stylesheet" href="../assets/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    
     
 </head>
 <body class="light">
@@ -77,20 +79,28 @@
        .margin-top-20{
         margin-top: 2rem;
        }
-        .btn{
-            width: 7rem;
-            height: 3rem;
-            background-color:rgb(107, 203, 235) ;
-            margin-bottom: 3rem;
-            margin-top: 2rem;
-        }
+       .btn{
+        width: 7rem;
+        height: 3rem;
+        background-color:#8c17fe;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        border-color: #8c17fe;
+        border-radius: 8px;
+        border-width: 3px;
+        
+    }
         .btn a{
-            color: white;
-            text-align: center;
-            text-decoration: none;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
         }
+        .btn a:hover{
+            color: #8c17fe;
+        }
+        
         .btn:hover{
-            color: rgba(0, 0, 255, 0.605);
+            background-color: white;
         }
 
     </style>
@@ -105,7 +115,7 @@
     </div>
 
     <div class="common-title contain">
-        <h3class="abt">About Us</h3>
+        <h3 class="abt">About Us</h3>
         <h2 class="blue">Learn New Things And Connect  With Awesome People</h2>
         <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores repellendus distinctio id totam laborum quo quaerat consequuntur dolorum magnam quae ea repellat, dicta ducimus beatae sit voluptas error temporibus veritatis debitis ipsam? Commodi optio aperiam voluptas ipsam vel maxime consequuntur nostrum autem? Enim totam iste corrupti minima provident quasi iure suscipit quas maiores. Autem magnam eaque sequi nobis et sunt expedita nesciunt accusantium tenetur, temporibus eveniet veritatis qui quos facere.</h6>
         <ul class="margin-top-20">
@@ -163,8 +173,8 @@
 										<a class="dropdown-item" href="#">Meetup Party</a>
 									</div>
 								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="../html/about.html">About Us</a>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"  style="color:rgb(128, 0, 255)">
+									<a class="nav-link" href="../html/about.html"><span style="color:rgb(128, 0, 255)">About Us</span></a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 									<a class="nav-link" href="../contact/contact.html">Contact</a>
@@ -185,6 +195,14 @@
 	</div>
 	<div class="section full-height">
         <!-- Write Your Page code here -->
+        <section class="meetOurSpeakersSection">
+
+            <h2>Take a look at our <span style="color: #8c17fe;">Portofolio.</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu lectus a leo tristique dictum nec non quam. Suspendisse convallis, tortor eu placerat rhoncus, lorem quam iaculis felis, sed eleifend lacus neque id eros. Integer convallis volutpat neque</p>
+            <div class="btn">
+                <a href="portofolio.html" class="btn1">Portofolio</a>
+            </div>
+        </section>
 
         <section class="meetOurSpeakersSection">
 
@@ -244,13 +262,14 @@
                         <div class="row">
                             
                             <div class="col-md-6 col-lg-4">
-                            <div class="footer-link">
+                            <div class="footer-link" >
                                 <h3>Useful Link</h3>
-                                <div><a href="">Home</a></div>
-                                <a href="">Contact</a>
-                                <a href="">Blogs</a>
-                                <a href="">Gallery</a>
-                                <a href="">About Us</a>
+                                <ul>
+                                    <li><a href="html/about.html"><i class="fa fa-angle-double-right"></i> About Us</a> </li>
+                                    <li><a href="contact/contact.html"><i class="fa fa-angle-double-right"></i> Contact Us</a> </li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Terms & Conditions</a> </li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Privacy Policy</a> </li>
+                                </ul>
                             </div>
                             </div>
                             <div class="col-md-6 col-lg-4">
@@ -260,11 +279,11 @@
                                 <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
                                 <p><i class="fa fa-envelope"></i>info@example.com</p>
                                 <div class="footer-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook-f"></i></a>
+                                <a href=""><i class="fa fa-youtube"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                             </div>

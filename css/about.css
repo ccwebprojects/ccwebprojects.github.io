@@ -1,0 +1,53 @@
+.meetOurSpeakersSection{
+    margin-top: 26%;
+    text-align: center;
+    padding: 0px 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meetOurSpeakersSection h2{
+    font-weight: bold;
+}
+
+.meetOurSpeakersSection p{
+    max-width: 80%;
+    margin: 0px;
+    padding-top: 1rem;
+    display: inline-block;
+}
+
+.meetOurSpeakersSection .organizers{
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    /* max-width: 100%; */
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.meetOurSpeakersSection .organizers #orgPhoto{
+    width: 14rem;
+    border-radius: 2rem;
+}
+
+
+.meetOurSpeakersSection .organizers #orgIntroCard{
+    position: relative;
+    background: #fd424d;
+    bottom: 9rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+#orgIntroCard h3{
+    margin: 0px;
+}
+

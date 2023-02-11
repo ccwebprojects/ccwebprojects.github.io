@@ -1,5 +1,5 @@
 .meetOurSpeakersSection{
-    margin-top: 26%;
+    margin-top: 18rem;
     text-align: center;
     padding: 0px 2rem;
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 .meetOurSpeakersSection .organizers #orgPhoto{
-    width: 14rem;
+    width: 15rem;
     border-radius: 2rem;
 }
 

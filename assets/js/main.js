@@ -104,8 +104,8 @@
             slidesToShow: 2,
             slidesToScroll: 1,
             arrows: true,
-            prevArrow: '<i class="fas fa-arrow-left slickArrow arrow-prev"></i>',
-            nextArrow: '<i class="fas fa-arrow-right slickArrow  arrow-next"></i>',
+            prevArrow: '<i class="fa fa-arrow-left slickArrow arrow-prev"></i>',
+            nextArrow: '<i class="fa fa-arrow-right slickArrow  arrow-next"></i>',
             responsive: [{
                 breakpoint: 576,
                 settings: {

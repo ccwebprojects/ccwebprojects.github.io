@@ -2239,7 +2239,7 @@ testi-left
 .fea-area .fea-right img {
     margin-bottom: 30px;
     border-radius: 15px;
-    aspect-ratio: 2;
+    aspect-ratio: 1.5;
 }
 
 .speaker-area {

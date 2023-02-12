@@ -29,6 +29,11 @@
     <link rel="stylesheet" href="../assets/icofont/icofont.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <title>About</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -39,6 +44,7 @@
 <body class="light">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
         .container1 {
             background: linear-gradient(157deg, #e100ffa5 0%, rgb(128, 0, 255) 100%), url(../media/image1.jpeg);
             background-size: cover;
@@ -53,7 +59,7 @@
             text-align: center;
             /* border: 1px solid black; */
             /* margin: auto; */
-            margin-top: 8rem;
+            margin-top: 18rem;
             color: white;
         }
 
@@ -159,8 +165,8 @@
         .Container2 .image {
 
             border-radius: 50%;
-            height: 20rem;
-            width: 20rem;
+            height: 30rem;
+            width: 30rem;
             margin: 0px auto;
 
         }
@@ -175,9 +181,115 @@
             color: gray;
 
         }
-        .meetOurSpeakersSection{
-            margin-top:1rem;
+
+        .meetOurSpeakersSection {
+            margin-top: 1rem;
             margin-bottom: 3rem;
+        }
+
+        /* Whay we do css */
+
+        :root {
+            --main-color: #3867d6;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: .2s linear;
+        }
+
+        html {
+            font-size: 62.5%;
+            overflow-x: hidden;
+            scroll-padding-top: 7rem;
+            scroll-behavior: smooth;
+        }
+
+        html::-webkit-scrollbar {
+            width: 1rem;
+        }
+
+        html::-webkit-scrollbar-track {
+            background: #444;
+        }
+
+        html::-webkit-scrollbar-thumb {
+            background: var(--main-color);
+            border-radius: 5rem;
+        }
+
+        body {
+            background: white;
+        }
+
+        section {
+            padding: 2rem 9%;
+        }
+
+        .about .row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .about .row .image {
+            flex: 1 1 45rem;
+            padding: 1rem;
+        }
+
+        .about .row .image img {
+            width: 100%;
+            border-radius: .5rem;
+            box-shadow: 0px 0px 5px gray;
+        }
+
+        .about .row .content {
+            flex: 1 1 45rem;
+        }
+
+        .about .row .content h3 {
+            font-size: 3.5rem;
+            color: black;
+        }
+
+        .about .row .content p {
+            font-size: 1.5rem;
+            color: black;
+            padding: 1rem 0;
+            line-height: 2;
+            font-weight: 600;
+        }
+
+        .btn {
+            margin-top: 1rem;
+            display: inline-block;
+            text-align: center;
+            width: 14rem;
+            height: 4rem;
+            /* padding: 0  2rem 0.5rem 0; */
+            font-size: 1.7rem;
+            border-radius: .5rem;
+            background: #666;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: var(--main-color);
+        }
+
+        img:hover {
+            transform: scale(1.03);
+            transition: 0.5s;
         }
     </style>
 
@@ -287,11 +399,14 @@
 
     <div class="images">
         <div class="img">
-            <img src="https://images.pexels.com/photos/7100332/pexels-photo-7100332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img1">
+            <img src="https://images.pexels.com/photos/7100332/pexels-photo-7100332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" class="img1">
             <img style="width: 50%; padding-right: 0.5rem;"
-               src="https://images.pexels.com/photos/7580783/pexels-photo-7580783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img2">
+                src="https://images.pexels.com/photos/7580783/pexels-photo-7580783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" class="img2">
             <img style="width: 50%; padding-left: 0.5rem;"
-                src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img3">
+                src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" class="img3">
         </div>
         <!-- <div class="img2"></div>
         <div class="img3"></div> -->
@@ -300,7 +415,7 @@
     <!-- Meet Our Founder -->
     <section class="founder">
         <div class="Container2">
-            <h2 class="founder">Meet your <span class="yellow">Founder</span></h2>
+            <h2 class="founder">Meet Our <span>Founder</span></h2>
             <img class="image" src="../assets/img/speaker/Founder.jpeg" alt="Founder'Career corps">
             <h4 class="Name">Raj Rathaur</h4>
             <h4 class="CC">Founder,Evenue</h4>
@@ -308,28 +423,52 @@
         </div>
     </section>
 
+    <!-- What Web Do -->
+    <section class="about" id="about">
+
+        <div class="row">
+
+            <div class="image">
+                <img src="../assets/img/speaker/Image.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="founder">What We Do ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore fugiat ut esse perferendis
+                    perspiciatis provident dolores fuga in facilis culpa possimus, quia praesentium itaque, sapiente
+                    quasi harum rem asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero expedita incidunt provident
+                    quibusdam aut odit, numquam nesciunt similique nisi.</p>
+                <a href="#" class="btn">contact us</a>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!-- Write Your Page code here -->
-    <section class="meetOurSpeakersSection">
+    <section style="margin-top: 10rem;" class="meetOurSpeakersSection">
 
-        <h2>Take a look at our <span style="color: #8c17fe;">Portofolio.</span></h2>
+        <h2 style="text-align: center; margin-bottom: 2rem;">Why To Choose Us?</h2>
+
+        <h4>Take a look at our <span style="color: #8c17fe;">Portofolio.</span></h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu lectus a leo tristique dictum nec non
             quam. Suspendisse convallis, tortor eu placerat rhoncus, lorem quam iaculis felis, sed eleifend lacus neque
             id eros. Integer convallis volutpat neque</p>
-        <div style="margin-top: 1rem;">
+        <div style="margin-top: 2rem ;">
             <a href="portofolio.html" class="btn1">Portofolio</a>
         </div>
     </section>
 
-    <section class="meetOurSpeakersSection">
+    <section  style="margin-top: 14rem;" class="meetOurSpeakersSection">
 
         <h2>Meet Our <span style="color: #8c17fe;">Organizers</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu lectus a leo tristique dictum nec non
             quam. Suspendisse convallis, tortor eu placerat rhoncus, lorem quam iaculis felis, sed eleifend lacus neque
             id eros. Integer convallis volutpat neque</p>
 
-        <div class="organizers">
+        <div  class="organizers">
 
             <div id="organizersDisplayCard">
                 <img id="orgPhoto" src="https://themes.themewild.com/eventex/assets/img/speaker/4.jpg" />

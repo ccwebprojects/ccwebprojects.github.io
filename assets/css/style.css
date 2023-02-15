@@ -650,7 +650,7 @@ nav .main-menu2 li a::before {
 }
 
 .breadcrumb-area .breadcrumb .breadcrumb-item a:hover {
-    color: #fd424d
+    /* color: #fd424d */
 }
 
 .preloader {
@@ -2947,8 +2947,8 @@ testi-left
 .testi-area .slick-slider .slickArrow.arrow-next.arrow-prev,
 .testi-area .slick-slider .arrow-prev.arrow-prev {
     left: -104%;
-    background: #fd424d;
-    color: #fff
+    /* background: #fd424d; */
+    color: #221b68;
 }
 
 @media(max-width:991.98px) {
@@ -2975,11 +2975,7 @@ testi-left
     }
 }
 
-.testi-area .slick-slider .slickArrow.arrow-next.arrow-prev:hover,
-.testi-area .slick-slider .arrow-prev.arrow-prev:hover {
-    background: #fff;
-    color: #221b68
-}
+
 
 .testi-area .slick-slider .slickArrow.arrow-next.arrow-next,
 .testi-area .slick-slider .arrow-prev.arrow-next {
@@ -3010,11 +3006,7 @@ testi-left
     }
 }
 
-.testi-area .slick-slider .slickArrow.arrow-next.arrow-next:hover,
-.testi-area .slick-slider .arrow-prev.arrow-next:hover {
-    background: #fd424d;
-    color: #fff
-}
+
 
 @media(max-width:991.98px) {
     .testi-area .testi-left {

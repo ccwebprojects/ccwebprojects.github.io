@@ -1,39 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
 
-/* * {
-  box-sizing: border-box;
-}
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
 
-/* body {
-  margin: 0;
-  padding: 0;
+
+.Faq {
   font-family: 'Hind', sans-serif;
   background: #fff;
   color: #4d5974;
+  margin: 0;
+  padding: 0;
   /* display: flex; */
-  /* min-height: 100vh; */
-/* }  */
-
-.Faq{
-    font-family: 'Hind', sans-serif;
-    background: #fff;
-    color: #4d5974;
-    margin: 0;
-    padding: 0;
-    /* display: flex; */
-    min-height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
   margin-bottom: -32px;
 }
-.accordion{
-    height:5rem ;
+
+.accordion {
+  height: 5rem;
 }
+
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 1rem;
@@ -41,7 +27,7 @@
 }
 
 .accordion .accordion-item button[aria-expanded='true'] {
-  border-bottom: 1px solid #03b5d2;
+  border-bottom: 1px solid #8c17fe;
 }
 
 .accordion button {
@@ -61,14 +47,14 @@
 .accordion button:hover,
 .accordion button:focus {
   cursor: pointer;
-  color: #fd24fd;
+  color:#fd424d;
 }
 
 .accordion button:hover::after,
 .accordion button:focus::after {
   cursor: pointer;
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
+  color: #8c17fe;
+  border: 1px solid #8c17fe;
 }
 
 .accordion button .accordion-title {
@@ -96,6 +82,7 @@
   height: 2px;
   background: currentColor;
 }
+
 .accordion button .icon::after {
   display: block;
   position: absolute;
@@ -108,17 +95,20 @@
 }
 
 .accordion button[aria-expanded='true'] {
-  color: #03b5d2;
+  color: #8c17fe;
 }
+
 .accordion button[aria-expanded='true'] .icon::after {
   width: 0;
 }
-.accordion button[aria-expanded='true'] + .accordion-content {
+
+.accordion button[aria-expanded='true']+.accordion-content {
   opacity: 1;
   max-height: 9em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
@@ -126,6 +116,7 @@
   transition: opacity 200ms linear, max-height 200ms linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content p {
   font-size: 1rem;
   font-weight: 300;

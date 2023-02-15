@@ -466,11 +466,11 @@ nav .main-menu2 li a::before {
 }
 
 .footer-area .foo_top .foo-widget .social-links a span.active {
-    background: #fd424d
+    /* background: #fd424d */
 }
 
 .footer-area .foo_top .foo-widget .social-links a span:hover {
-    background: #fd424d
+    /* background: #fd424d */
 }
 
 .footer-area .foo_top .foo-widget ul li {

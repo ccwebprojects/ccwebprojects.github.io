@@ -4,7 +4,6 @@
 
 .Faq {
   font-family: 'Hind', sans-serif;
-  background: #fff;
   color: #4d5974;
   margin: 0;
   padding: 0;
@@ -13,7 +12,6 @@
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
-  margin-bottom: -32px;
 }
 
 .accordion {

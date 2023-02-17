@@ -12,10 +12,37 @@
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
+  margin-bottom: -32px;
+  
 }
 
 .accordion {
-  height: 5rem;
+  overflow-y: scroll;
+
+}
+.bt
+{
+  height: 40px;
+  width: 100px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+ margin-top: -3rem;
+  background: linear-gradient(to right bottom, #bf14efd2, #7328c3);
+}
+.bt img{
+  
+  color: white;
+  width: 2em;
+  height: 1em;
+  text-align: center;
+}
+.bt a{
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: white;
 }
 
 .accordion .accordion-item {

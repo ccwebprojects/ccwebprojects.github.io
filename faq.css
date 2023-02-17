@@ -22,27 +22,38 @@
 }
 .bt
 {
-  height: 40px;
-  width: 100px;
+  height: 25px;
+  width: 70px;
   border: 1px solid gray;
   border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.849);
+  font-size: smaller;
+  margin-left: 35rem;
   display: flex;
   justify-content: center;
- margin-top: -3rem;
-  background: linear-gradient(to right bottom, #bf14efd2, #7328c3);
+  margin-top: -2.5rem;
+  
+ /* margin-top: -3rem; */
+  /* background: linear-gradient(to right bottom, #bf14efd2, #7328c3); */
 }
-.bt img{
+/* .bt img{
   
   color: white;
   width: 2em;
   height: 1em;
   text-align: center;
-}
+  
+} */
 .bt a{
-  text-align: center;
-  padding: 0.5rem;
+  padding-top: 0.1rem;
+  /* text-align: center; */
+  /* padding: 0.5rem; */
   font-weight: bold;
   color: white;
+}
+.bt a:hover{
+  color: rgba(0, 0, 0, 0.425);
+  transition: 0.5s;
 }
 
 .accordion .accordion-item {
